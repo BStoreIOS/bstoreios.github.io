@@ -1,0 +1,74 @@
+html { scroll-behavior: smooth; resize: both; }
+
+@media only screen and (min-width: 100px) and (max-width: 390px) { /* iPhone XS, Check if it works on other phones too*/
+.website-text { width: 100%; height: 700px; background: url(images/wallpaperphone2.png); background-position: 0 0%; }
+.btn-dark { position: relative; align-self: center; top: 50px; height: 7%; width: 100%;  }
+h1 { font-weight: bold; position: relative; width: 85%; color: white; ; font-size: 10.5vw; left: 25px; top: 35px; }
+h2 { font-weight: bold; position: relative; width: 85%; color: white;  font-size: 10.5vw; left: 25px; top: 35px; }
+p { position: relative; width: 85%; color: white; font-size: 5.5vw; left: 25px; top: 50px; }
+.bstore-category { background: #181818; height: 100%;  }
+.music-category { background: #181818; height: 100%; }
+.movie-category { background: #181818; height: 100%; }
+.video-category { background: #181818; height: 100%; }
+.file-category { background: #181818; height: 100%;  }
+.sport-category { background: #181818; height: 100%; }
+.other-category { background: #181818; height: 100%; }
+.apple-id-page { background: #181818; height: 40%; }
+.suggestion-page { background: #181818; height: 100%; }
+.archive-page { background: #181818; }
+#apple-button { left: 0px; width: 100%; height: 100px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; }
+#archive-button { left: 0px; width: 100%; height: 65px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; margin-top: -15px; }
+#tab-button { left: 0px; width: 100%; height: 65px; font-weight: bold; font-size: 7.5vw;  }
+#tab-music-button { left: 0px; width: 100%; height: 55px; font-weight: bold; font-size: 7.5vw; margin-top: 45px; }
+#archive-text { top: -10px; }
+#icon-image { margin-top: -50px; }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 880px) { /* iPhone XS Max & Larger Phones*/
+.website-text { width: 100%; height: 700px; background: url(images/wallpaperphone2.5.png); background-position: 50% 0%; }
+h1 { font-weight: bold; position: relative; color: white; }
+h2 { font-weight: bold; position: relative; color: white; }
+p { position: relative; color: white; font-size: 4.0vw; }
+.bstore-category { background: #181818; height: 100%;  }
+.music-category { background: #181818; height: 100%; }
+.movie-category { background: #181818; height: 100%; }
+.video-category { background: #181818; height: 100%; }
+.file-category { background: #181818; height: 100%;  }
+.sport-category { background: #181818; height: 100%; }
+.other-category { background: #181818; height: 100%; }
+.apple-id-page { background: #181818; height: 40%; }
+.suggestion-page { background: #181818; height: 100%; }
+.archive-page { background: #181818; }
+#apple-button { width: 100%; }
+#archive-button { width: 100%; }
+#tab-button { width: 100%; }
+#tab-button-first { width: 100%; font-weight: bold; }
+#tab-music-button { width: 100%; }
+#archive-text { width: 100%; }
+	}
+
+@media only screen and (min-width: 880px) and (max-width: 1920px) { /* iPhone XS, Check if it works on other phones too*/
+.website-text { width: 100%; height: 100%; background: url(images/wallpaperiphone3.png); background-position: 50% 0%; }
+h1 { font-weight: bold; position: relative; color: white; }
+h2 { font-weight: bold; position: relative; color: white;}
+p { position: relative; color: white; }
+.bstore-category { background: #181818; height: 100%;  }
+.music-category { background: #181818; height: 100%; }
+.movie-category { background: #181818; height: 100%; }
+.video-category { background: #181818; height: 100%; }
+.file-category { background: #181818; height: 100%;  }
+.sport-category { background: #181818; height: 100%; }
+.other-category { background: #181818; height: 100%; }
+.apple-id-page { background: #181818; height: 40%; }
+.suggestion-page { background: #181818; height: 100%; }
+.archive-page { background: #181818; }
+#apple-button { width: 100%; }
+#archive-button { width: 100%; }
+#tab-button { width: 100%; }
+#tab-button-first { width: 100%; margin-top: 15px; font-weight: bold; }
+#start-title { position: relative; color: white; width: 75%; font-size: 4.25vw; margin: auto; }
+#start-text { position: relative; color: white; width: 50%; font-size: 1.55vw; margin: auto; }
+#tab-music-button { width: 100%; }
+#archive-text { width: 100%; }
+}
+
