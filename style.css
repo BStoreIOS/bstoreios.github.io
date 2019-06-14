@@ -42,7 +42,12 @@ p { position: relative; color: white; font-size: 4.0vw; }
 #apple-button { width: 100%; }
 #archive-button { width: 100%; }
 #tab-button { width: 100%; }
-#tab-button-first { width: 100%; font-weight: bold; }
+#tab-button-first { width: 100%; margin-top: -25px; font-weight: bold; height: 7.5%; }		
+#tab-button-second { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
+#tab-button-third { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
+#tab-button-four { width: 30.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
+	
+
 #tab-music-button { width: 100%; }
 #archive-text { width: 100%; }
 	}
@@ -65,7 +70,10 @@ p { position: relative; color: white; }
 #apple-button { width: 100%; }
 #archive-button { width: 100%; }
 #tab-button { width: 100%; }
-#tab-button-first { width: 100%; margin-top: 15px; font-weight: bold; }
+#tab-button-first { width: 100%; margin-top: 5px; font-weight: bold; height: 100%; }
+#tab-button-second { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 100%; }
+#tab-button-third { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 100%; }
+#tab-button-four { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 100%; }
 #start-title { position: relative; color: white; width: 75%; font-size: 4.25vw; margin: auto; }
 #start-text { position: relative; color: white; width: 50%; font-size: 1.55vw; margin: auto; }
 #tab-music-button { width: 100%; }
