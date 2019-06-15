@@ -15,6 +15,7 @@ p { position: relative; width: 85%; color: white; font-size: 5.5vw; left: 25px; 
 .other-category { background: #181818; height: 100%; }
 .apple-id-page { background: #181818; height: 40%; }
 .suggestion-page { background: #181818; height: 100%; }
+.update-page { background: #181818; height: 100%; }
 .archive-page { background: #181818; }
 #apple-button { left: 0px; width: 100%; height: 100px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; }
 #archive-button { left: 0px; width: 100%; height: 65px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; margin-top: -15px; }
@@ -22,7 +23,7 @@ p { position: relative; width: 85%; color: white; font-size: 5.5vw; left: 25px; 
 #tab-music-button { left: 0px; width: 100%; height: 55px; font-weight: bold; font-size: 7.5vw; margin-top: 45px; }
 #archive-text { top: -10px; }
 #icon-image { margin-top: -50px; }
-	
+#update-dot { padding-left: 5%; }
 #tab-button-second { width: 33.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
 #tab-button-third { width: 33.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
 #tab-button-four { width: 30.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
@@ -42,19 +43,19 @@ p { position: relative; color: white; font-size: 4.0vw; }
 .other-category { background: #181818; height: 100%; }
 .apple-id-page { background: #181818; height: 40%; }
 .suggestion-page { background: #181818; height: 100%; }
+.update-page { background: #181818; height: 100%; }
 .archive-page { background: #181818; }
 #apple-button { width: 100%; }
 #archive-button { width: 100%; }
 #tab-button { width: 100%; }
+#update-dot { padding-left: 5%; }
 #tab-button-first { width: 100%; margin-top: -25px; font-weight: bold; height: 7.5%; }		
 #tab-button-second { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
 #tab-button-third { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
 #tab-button-four { width: 30.0%; margin-top: 2.5px; font-weight: bold; height: 7.5%; }
-	
-
 #tab-music-button { width: 100%; }
 #archive-text { width: 100%; }
-	}
+}
 
 @media only screen and (min-width: 880px) and (max-width: 1920px) { /* iPhone XS, Check if it works on other phones too*/
 .website-text { width: 100%; height: 100%; background: url(images/wallpaperiphone3.png); background-position: 50% 0%; }
@@ -70,6 +71,7 @@ p { position: relative; color: white; }
 .other-category { background: #181818; height: 100%; }
 .apple-id-page { background: #181818; height: 40%; }
 .suggestion-page { background: #181818; height: 100%; }
+.update-page { background: #181818; height: 100%; }
 .archive-page { background: #181818; }
 #apple-button { width: 100%; }
 #archive-button { width: 100%; }
@@ -80,6 +82,8 @@ p { position: relative; color: white; }
 #tab-button-four { width: 33.0%; margin-top: 2.5px; font-weight: bold; height: 100%; }
 #start-title { position: relative; color: white; width: 75%; font-size: 4.25vw; margin: auto; }
 #start-text { position: relative; color: white; width: 50%; font-size: 1.55vw; margin: auto; }
+#update-text {  color: white; font-size: 1.55vw; margin: auto; }
+#update-dot { padding-left: 5%; }
 #tab-music-button { width: 100%; }
 #archive-text { width: 100%; }
 }
