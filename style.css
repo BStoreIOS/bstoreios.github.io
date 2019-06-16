@@ -1,7 +1,7 @@
 html { scroll-behavior: smooth; resize: both; }
 
 @media only screen and (min-width: 100px) and (max-width: 390px) { /* iPhone XS, Check if it works on other phones too*/
-.website-text { width: 100%; height: 700px; background: url(images/wallpaperphone2.png); background-position: 0 0%; }
+.website-text { width: 100%; height: 700px; background: url(images/wallpaperphone2.png); background-position: 0% 0%; }
 .btn-dark { position: relative; align-self: center; top: 50px; height: 7%; width: 100%;  }
 h1 { font-weight: bold; position: relative; width: 85%; color: white; ; font-size: 10.5vw; left: 25px; top: 35px; }
 h2 { font-weight: bold; position: relative; width: 85%; color: white;  font-size: 10.5vw; left: 25px; top: 35px; }
@@ -18,15 +18,19 @@ p { position: relative; width: 85%; color: white; font-size: 5.5vw; left: 25px; 
 .update-page { background: #181818; height: 100%; }
 .archive-page { background: #181818; }
 #apple-button { left: 0px; width: 100%; height: 100px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; }
+#apple-button-two { width: 100%; height: 100%; margin-top: 1%; }
 #archive-button { left: 0px; width: 100%; height: 65px; font-weight: bold; font-size: 7.5vw; margin-top: 40px; margin-top: -15px; }
 #tab-button { left: 0px; width: 100%; height: 65px; font-weight: bold; font-size: 7.5vw;  }
 #tab-music-button { left: 0px; width: 100%; height: 55px; font-weight: bold; font-size: 7.5vw; margin-top: 45px; }
 #archive-text { top: -10px; }
 #icon-image { margin-top: -50px; }
 #update-dot { padding-left: 5%; }
-#tab-button-second { width: 33.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
-#tab-button-third { width: 33.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
-#tab-button-four { width: 30.0%; margin-top: 65px; font-weight: bold; height: 7.5%; }
+#start-text { margin-bottom: 5%; font-size: 5.0vw; }
+#start-title { margin-top: 0%; }
+#tab-button-first { width: 100%; margin-top: -4.25%; font-weight: bold; height: 7.5%; }
+#tab-button-second { width: 33.0%; margin-top: 14%; font-weight: bold; height: 7.5%; }
+#tab-button-third { width: 33.0%; margin-top: 14%; font-weight: bold; height: 7.5%; }
+#tab-button-four { width: 30.0%; margin-top: 14%; font-weight: bold; height: 7.5%; }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 880px) { /* iPhone XS Max & Larger Phones*/
